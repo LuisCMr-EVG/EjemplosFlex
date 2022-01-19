@@ -1,0 +1,45 @@
+body{
+    background-color: lightblue;
+}
+
+div{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+div *{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background-color: pink;
+    padding: 20px;
+}
+
+/* Flex Flow nos permite incluir el flex direction y flex wrap en la misma instrucción */
+#contenedorFlexFlow{
+    display:flex;
+    flex-flow: wrap row-reverse;
+    width: 900px;
+    background-color: white;
+}
+
+
+#volver{
+    border: 0;
+    margin-top: 100px;
+}
+
+a{
+    height: 50px;
+    width: 300px;
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid white;
+    border-radius: 10px;
+    color:black;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
